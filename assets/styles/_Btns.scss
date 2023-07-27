@@ -1,0 +1,43 @@
+@import "src/assets/styles/_variables.scss";
+
+.my-btn {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+  &:lang(ar) {
+    flex-direction: row-reverse;
+  }
+}
+.my-btn-dark-blue {
+  background-color: $darkBlue;
+  color: $white;
+}
+.my-btn-grey {
+  background-color: $grey;
+  color: $btnDarkBlue;
+}
+.view-list {
+  border-radius: 40px;
+}
+
+.bg-sales-report {
+  background-color: #e5f6f4;
+}
+
+.submit-btn {
+  background-color: transparent;
+  border: solid 1px $pink;
+  color: $pink;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  border-radius: 3px;
+  letter-spacing: 1px;
+
+  &:hover {
+    color: $white;
+    background-color: $pink;
+  }
+}

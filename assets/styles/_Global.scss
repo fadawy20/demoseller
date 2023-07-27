@@ -1,0 +1,18 @@
+@import 'src/assets/styles/_variables.scss';
+
+.status-ready{
+  background-color: $alertDanger;
+  color: #0e1740;
+}
+.status-completed{
+  background-color: transparent;
+  color: $color-success;
+}
+.status-delivered{
+  background-color: $status-completed;
+  color: $color-success;
+}
+.status-returned{
+  background-color: $status-refuned;
+  color: $color-refuned;
+}
