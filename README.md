@@ -1,2 +1,0 @@
-# seller-demo
-seller demo

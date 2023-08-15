@@ -1,7 +1,7 @@
 {
   "seller": {
     "auth": {
-      "Welcom_Back": "Welcom Back",
+      "Welcom_Back": "Welcome Back",
       "Login_to_Your_Account": "Login to Your Account",
       "Email_Address_is_Required": "Email Address is Required",
       "Email_Address_is_Invalid": "Email Address is Invalid",
@@ -9,7 +9,7 @@
       "Submit": "Submit",
       "Waiting": "Waiting",
       "Email": "Email",
-      "Passowrd": "Passowrd",
+      "Passowrd": "Password",
       "Forget_Password":"Forget Password",
       "Phone_Number": "Phone Number",
       "Phone_is_Required": "Phone is Required",
@@ -22,27 +22,34 @@
       "Hello": "Hello",
       "My_Account": "My Account",
       "Account_Setting": "Account Setting",
-      "Logout": "Logout"
+      "Logout": "Logout",
+      "notify_new_order":"You have recieved new order"
     },
     "sidebar": {
       "menu": "Menu",
       "dashboard": "Dashboard",
       "products": "Product Catalog",
-      "customers": "customers",
+      "customers": "Customers",
       "orders": "Orders",
       "promotions": "Promotions",
       "shipping-rules": "Shipping Rules",
       "store-credit": "Store credit",
       "reports": "Reports",
       "help-desk": "Help desk",
-      "setting": "Setting"
+      "setting": "Setting",
+      "payments":"payments"
+    },
+    "shared":{
+      "Coming_Soon":"Coming Soon",
+      "Back_Home":"Back Home"
     },
     "order": {
       "Orders": "Orders",
       "Select_Order_For":"Select Order For ",
-      "sort": "sort",
-      "columns": "columns",
-      "filter": "filter",
+      "searchOrder":"search by id or customer name ...",
+      "sort": "Sort",
+      "columns": "Columns",
+      "filter": "Filter",
       "export": "Export",
       "print": "Print",
       "AWB": "AWB",
@@ -55,8 +62,8 @@
       "select_city": "select city",
       "select_payment_methods": "select payment methods",
       "select_order_status": "select order status",
-      "from": "from",
-      "to": "to",
+      "from": "From",
+      "to": "To",
       "Apply_Filter": "Apply Filter",
       "Reset": "Reset",
       "id": "ID",
@@ -70,11 +77,11 @@
       "All": "All",
       "orderStatus": {
         "allOrder": "All Order",
-        "delivered": "Delivered",
-        "canceled": "Canceled",
-        "on hold": "On Hold",
-        "returned": "Returned",
-        "validated": "Validated"
+        "Delivered": "Delivered",
+        "Canceled": "Canceled",
+        "On hold": "On Hold",
+        "Returned": "Returned",
+        "Validated": "Validated"
       }
     },
     "order_details": {
@@ -104,8 +111,32 @@
       "select_Reason": "select Reason Rejected",
       "Note": "Note",
       "notePlaceholder": "enter your note",
-      "save": "save",
-      "close": "close"
+      "save": "Save",
+      "close": "Close",
+      "add-reply":"add your reply.....",
+      "reply":"Reply",
+      "awb_not_found":"This order doesn't have awb"
+    },
+    "payments":{
+      "payments":"Payments",
+      "no":"N#",
+      "Created_At":"Created At",
+      "item_sku":"Item Sku",
+      "qty":"QTY",
+      "order_referance":"Order Referance",
+      "zone":"Origin",
+      "unite_price":"Unite Price",
+      "item_before_promotions":"Item Befor Promotions",
+      "item_before_promotions_&_D&T":"Item Befor Promotions and D&T",
+      "delivery_fee":"Delivery Fee",
+      "Taxes":"Taxes",
+      "tax_fees":"Tax Fees",
+      "promos_redeemed":"Promo Redeemed",
+      "Seller_Promo":"Seller Promo",
+      "Promo_Name":"Promo Name",
+      "Items_Refund":"Items Refund",
+      "payment_type":"Payment Type",
+      "Commission_Revenues":"Commission Revenues"
     }
   }
 }

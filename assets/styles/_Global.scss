@@ -1,18 +1,26 @@
-@import 'src/assets/styles/_variables.scss';
+@import "src/assets/styles/_variables.scss";
 
-.status-ready{
-  background-color: $alertDanger;
-  color: #0e1740;
+.status-orange {
+  background-color: $error-200;
+  color: $state-color-orange;
 }
-.status-completed{
-  background-color: transparent;
-  color: $color-success;
+.status-warning {
+  background-color: $warning-200;
+  color: $state-color-warning;
 }
-.status-delivered{
-  background-color: $status-completed;
-  color: $color-success;
+.status-success {
+  background-color: $success-200;
+  color: $state-color-success;
 }
-.status-returned{
-  background-color: $status-refuned;
-  color: $color-refuned;
+.status-danger {
+  background-color: $error-200;
+  color: $state-color-error;
+}
+.status-grey {
+  background-color: $grayscale-200;
+  color: $state-color-grey;
+}
+.status-info {
+  background-color: $info-200;
+  color: $state-color-info;
 }
